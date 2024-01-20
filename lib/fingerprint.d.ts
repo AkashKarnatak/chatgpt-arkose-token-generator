@@ -49,7 +49,7 @@ declare function getFingerprint(): {
     SWF: boolean;
 };
 declare function prepareF(fingerprint: any): string;
-declare function prepareFe(fingerprint: any): any[];
+declare function prepareFe(fingerprint: any): string[];
 declare function getEnhancedFingerprint(fp: typeof baseFingerprint, ua: string, opts: any): {
     key: string;
     value: any;
