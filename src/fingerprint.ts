@@ -1,5 +1,5 @@
 import x64hash128 from './murmur'
-import { randomBytes } from 'crypto'
+const randomBytes = require('randombytes')
 
 // Get fingerprint
 const baseFingerprint = {

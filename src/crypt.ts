@@ -1,4 +1,5 @@
-import { createHash, createCipheriv, createDecipheriv } from 'crypto'
+const createHash = require('create-hash')
+const { createCipheriv, createDecipheriv } = require('browserify-cipher')
 
 interface EncryptionData {
   ct: string
